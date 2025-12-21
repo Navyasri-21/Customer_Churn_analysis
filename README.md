@@ -1,21 +1,21 @@
-# Customer_Churn_analysis
+# 📖 Customer_Churn_analysis
 ##Project Overview:
 This Project analyzes telecom customer data to understand which customers are likely to churn and why.
 The dashboard is built in **Power BI** using the 'telcom.csv' dataset.
 
-**Goals:**
+** 🎯 Goals:**
 - Calculate overall churn rate.
 - Identify high-risk customer segments.
 - Provide insights and recommendations to reduce churns.
 
 - --
 
-## 2. Dataset and Data Model
+## 📂  Dataset and Data Model
 - Dataset:Customer demographics, services, contract type, payment method, and churn.
 - Steps: Cleaned data, created calculated measures (Total Customers, Churned Customers, churn Rate, Total Revenue), and built the data model.
   <img width="654" height="974" alt="image" src="https://github.com/user-attachments/assets/8e1f3564-9de9-4931-ba6e-cfa826e62d05" />
 
-## 4.Detailed Analysis Pages
+## Detailed Analysis Pages
 ### Contract
 <img width="1359" height="763" alt="image" src="https://github.com/user-attachments/assets/a939223e-2b37-4bf2-ab52-fbfabe32a051" />
 
@@ -27,7 +27,7 @@ The dashboard is built in **Power BI** using the 'telcom.csv' dataset.
 
 <img width="1193" height="920" alt="image" src="https://github.com/user-attachments/assets/76aea695-cac2-4911-9c26-8575ca2ebcb1" />
 
-## 5. Key Insights (With Numbers)
+## 📊  Key Insights (With Numbers)
 
 - The overall **churn rate is 26.54%** with **1,869 churned customers out of 7,043**, leaving **5,174 active customers** in the base.  
 - **Month‑to‑month contracts** are the most unstable: their churn rate is around **42.71%**, compared to roughly **11.2% for 1‑year contracts** and **2–3% for 2‑year contracts**, showing that long‑term contracts are far more resilient.  
@@ -35,7 +35,7 @@ The dashboard is built in **Power BI** using the 'telcom.csv' dataset.
 - Customers **without TechSupport** have churn above **40%**, significantly higher than those with TechSupport enabled, who churn closer to the mid‑20% range.  
 - Revenue analysis shows roughly **₹2.8 Cr in churned revenue** and more than **₹1.2 Cr tagged as “high‑risk revenue”** from active customers with risky profiles (month‑to‑month, electronic check, no TechSupport, short tenure).  
 
-## 6. Recommendations (Number‑Driven)
+## 💡 Recommendations (Number‑Driven)
 
 - **Contract strategy:**  
   - Target month‑to‑month customers (churn **42.71%**) with upgrades to **1‑year contracts (≈11.2% churn)** or longer.  
@@ -57,8 +57,15 @@ The dashboard is built in **Power BI** using the 'telcom.csv' dataset.
   - Train a churn model using the above features (contract type, payment method, TechSupport, tenure, charges) and regularly score all **5,174 active customers**.  
   - Use score thresholds to trigger retention flows for the top **10–20% highest‑risk** customers, ensuring interventions are focused where the **numerical lift in churn reduction** is greatest.
 
-## 7. Technologies Used
+## 🔧  Technologies Used
 
 - Power BI Desktop / Power BI Service  
 - Dataset: `telecom.csv`  
 - Skills: Data cleaning, DAX measures, interactive dashboards, data storytelling
+
+## 📂Dataset
+import kagglehub
+# Download latest version
+path = kagglehub.dataset_download("blastchar/telco-customer-churn")
+
+print("Path to dataset files:", path)
