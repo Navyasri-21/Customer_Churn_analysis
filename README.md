@@ -27,6 +27,36 @@ The dashboard is built in **Power BI** using the 'telcom.csv' dataset.
 
 <img width="1193" height="920" alt="image" src="https://github.com/user-attachments/assets/76aea695-cac2-4911-9c26-8575ca2ebcb1" />
 
+## 5. Key Insights (With Numbers)
+
+- The overall **churn rate is 26.54%** with **1,869 churned customers out of 7,043**, leaving **5,174 active customers** in the base.  
+- **Month‑to‑month contracts** are the most unstable: their churn rate is around **42.71%**, compared to roughly **11.2% for 1‑year contracts** and **2–3% for 2‑year contracts**, showing that long‑term contracts are far more resilient.  
+- Customers paying via **electronic check** churn at about **45%**, while customers on automatic payments (credit card / bank transfer) churn closer to the mid‑teens (around **16%**), indicating that payment friction is a major churn driver.  
+- Customers **without TechSupport** have churn above **40%**, significantly higher than those with TechSupport enabled, who churn closer to the mid‑20% range.  
+- Revenue analysis shows roughly **₹2.8 Cr in churned revenue** and more than **₹1.2 Cr tagged as “high‑risk revenue”** from active customers with risky profiles (month‑to‑month, electronic check, no TechSupport, short tenure).  
+
+## 6. Recommendations (Number‑Driven)
+
+- **Contract strategy:**  
+  - Target month‑to‑month customers (churn **42.71%**) with upgrades to **1‑year contracts (≈11.2% churn)** or longer.  
+  - Even if only a portion of them convert, each **10 percentage‑point drop** in churn in this segment can save **hundreds of customers** and a meaningful share of the **₹1.2 Cr high‑risk revenue**.
+
+- **Payment method optimization:**  
+  - Prioritize campaigns that move customers from **electronic check (≈45% churn)** to **auto‑pay methods (≈16% churn)**.  
+  - If half of electronic‑check users switch, the churn rate for that group could drop by almost **15 percentage points**, directly protecting a large fraction of high‑risk revenue.
+
+- **Support and service bundling:**  
+  - Focus on customers with **no TechSupport (>40% churn)** by offering discounted or bundled support plans.  
+  - Bringing this group closer to the churn level of supported customers (mid‑20%) would mean roughly a **15–20 percentage‑point improvement** and a sizable reduction in future churned revenue.
+
+- **Revenue‑focused retention:**  
+  - Use the high‑risk revenue flag (≈**₹1.2 Cr**) to build a prioritized call/offer list starting with **high‑ARPU, high‑risk profiles** (month‑to‑month + electronic check + no TechSupport).  
+  - Even converting **20–30%** of these high‑risk customers to safer profiles (longer contract + auto‑pay + TechSupport) can protect **tens of lakhs of rupees** in annual revenue.
+
+- **Model‑driven follow‑up:**  
+  - Train a churn model using the above features (contract type, payment method, TechSupport, tenure, charges) and regularly score all **5,174 active customers**.  
+  - Use score thresholds to trigger retention flows for the top **10–20% highest‑risk** customers, ensuring interventions are focused where the **numerical lift in churn reduction** is greatest.
+
 ## 7. Technologies Used
 
 - Power BI Desktop / Power BI Service  
