@@ -1,9 +1,9 @@
-# 📖 Customer_Churn_analysis
+# 📖 Customer Churn Analysis
 ##Project Overview:
 This Project analyzes telecom customer data to understand which customers are likely to churn and why.
 The dashboard is built in **Power BI** using the 'telcom.csv' dataset.
 
-** 🎯 Goals:**
+## 🎯 Goals
 - Calculate overall churn rate.
 - Identify high-risk customer segments.
 - Provide insights and recommendations to reduce churns.
@@ -63,9 +63,13 @@ The dashboard is built in **Power BI** using the 'telcom.csv' dataset.
 - Dataset: `telecom.csv`  
 - Skills: Data cleaning, DAX measures, interactive dashboards, data storytelling
 
-## 📂Dataset
-import kagglehub
-# Download latest version
-path = kagglehub.dataset_download("blastchar/telco-customer-churn")
+## Dataset Source
 
-print("Path to dataset files:", path)
+Due to dataset size, the raw data is not stored in this repository.
+
+- Source: Kaggle – Telco Customer Churn Dataset  
+- Dataset Name: Telco Customer Churn  
+- Records: 7,043 customers  
+- Format: CSV  
+
+The dataset was downloaded from Kaggle and imported directly into Power BI.
