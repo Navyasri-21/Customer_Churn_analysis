@@ -1,5 +1,5 @@
 # 📖 Customer Churn Analysis
-##Project Overview:
+## Project Overview:
 This Project analyzes telecom customer data to understand which customers are likely to churn and why.
 The dashboard is built in **Power BI** using the 'telcom.csv' dataset.
 
