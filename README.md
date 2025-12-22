@@ -33,7 +33,7 @@ The dashboard is built in **Power BI** using the 'telcom.csv' dataset.
 <img width="1335" height="759" alt="image" src="https://github.com/user-attachments/assets/1170347c-2205-41af-b68e-19df65c5674b" />
 
 
-<img width="1193" height="920" alt="image" src="https://github.com/user-attachments/assets/76aea695-cac2-4911-9c26-8575ca2ebcb1" />
+<img width="940" height="718" alt="image" src="https://github.com/user-attachments/assets/db470125-3a7b-4211-97bc-db797fb5abc9" />
 
 
 ## 📊  Key Insights (With Numbers)
