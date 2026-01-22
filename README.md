@@ -40,7 +40,7 @@ The dashboard is built in **Power BI** using the 'telcom.csv' dataset.
 
 📌  The overall **churn rate is 26.54%** with **1,869 churned customers out of 7,043**, leaving **5,174 active customers** in the base.  
 📌 **Month‑to‑month contracts** are the most unstable: their churn rate is around **42.71%**, compared to roughly **11.2% for 1‑year contracts** and **2–3% for 2‑year contracts**, showing that long‑term contracts are far more resilient.  
-📌 Customers paying via **electronic check** churn at about **45%**, while customers on automatic payments (credit card / bank transfer) churn closer to the mid‑teens (around **16%**), indicating that payment friction is a major churn driver.  
+📌"Approximately **10%** of total revenue is associated with customers who churned, with a substantial portion coming from the electronic check payment segment.”
 📌  Customers **without TechSupport** have churn above **40%**, significantly higher than those with TechSupport enabled, who churn closer to the mid‑20% range.  
 📌  Revenue analysis shows roughly **₹2.8 Cr in churned revenue** and more than **₹1.2 Cr tagged as “high‑risk revenue”** from active customers with risky profiles (month‑to‑month, electronic check, no TechSupport, short tenure).  
 
